@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ADS1015
+D 12-Bit ADC with Integrated MUX, PGA, Comparator, Oscillator, and Reference
+$ENDCMP
+#
+#End Doc Library
