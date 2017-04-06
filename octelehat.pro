@@ -1,4 +1,4 @@
-update=Wed 05 Apr 2017 08:55:30 PM BST
+update=Thu 06 Apr 2017 09:41:36 PM BST
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,16 +25,6 @@ version=1
 NetIExt=net
 [general]
 version=1
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
 [eeschema]
 version=1
 LibDir=/home/greg/moonpunch/work/SeeedOPL
@@ -84,3 +74,13 @@ LibName42=SeeedOPL-Crystal Oscillator-2016
 LibName43=SeeedOPL-Connector-2016
 LibName44=SeeedOPL-Capacitor-2016
 LibName45=SeeedOPL-Resistor-2016
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60

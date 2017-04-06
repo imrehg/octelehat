@@ -68,7 +68,7 @@ F 1 "CONN_02X20" V 2400 2350 50  0000 C CNN
 F 2 "Socket_Strips:Socket_Strip_Straight_2x20_Pitch2.54mm" H 2400 1300 50  0001 C CNN
 F 3 "https://statics3.seeedstudio.com/images/opl/datasheet/320030087.pdf" H 2400 1400 50  0001 C CNN
 F 4 "YXCON" H 2400 2350 60  0001 C CNN "Manufacturer"
-F 5 "F185-1220A0BSYA1" H 2400 1300 50  0000 C CNN "MFPN"
+F 5 "F185-1220A0BSYA1" H 2400 1300 50  0000 C CNN "MPN"
 	1    2400 2350
 	1    0    0    -1  
 $EndComp
@@ -315,6 +315,8 @@ F 0 "U2" H 7900 4450 60  0000 C CNN
 F 1 "ADS1015" H 7350 4450 60  0000 C CNN
 F 2 "Housings_SSOP:TSSOP-10_3x3mm_Pitch0.5mm" H 7550 4100 60  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/ads1015.pdf" H 7550 4100 60  0001 C CNN
+F 4 "ADS1015IDGSR" H 7550 4100 60  0001 C CNN "MPN"
+F 5 "Texas Instruments" H 7550 4100 60  0001 C CNN "Manufacturer"
 	1    7550 4100
 	1    0    0    -1  
 $EndComp
@@ -559,9 +561,9 @@ Wire Wire Line
 Wire Wire Line
 	3850 7400 3850 6750
 Wire Wire Line
-	3850 6750 4000 6750
+	3400 6750 4000 6750
 Wire Wire Line
-	4000 6650 3800 6650
+	3400 6650 4000 6650
 Wire Wire Line
 	3800 6650 3800 7300
 Wire Wire Line
@@ -1097,4 +1099,10 @@ Wire Wire Line
 	8100 5400 8100 5900
 Wire Wire Line
 	8100 5900 10450 5900
+Connection ~ 3800 6650
+Connection ~ 3850 6750
+Text Label 3400 6650 2    60   ~ 0
++3V3
+Text Label 3400 6750 2    60   ~ 0
+GND
 $EndSCHEMATC
