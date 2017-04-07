@@ -1,14 +1,14 @@
 (export (version D)
   (design
     (source /home/greg/moonpunch/designs/octelehat/octelehat.sch)
-    (date "Fri 07 Apr 2017 01:42:38 AM BST")
+    (date "Fri 07 Apr 2017 02:05:01 PM BST")
     (tool "Eeschema 4.0.6")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title "Overclocking Telemetry HAT for Raspberry Pi 3")
         (company moonpunch.org)
-        (rev v1)
-        (date 2017-04-05)
+        (rev 1)
+        (date 2017-04-07)
         (source octelehat.sch)
         (comment (number 1) (value "CERN OHL 1.2"))
         (comment (number 2) (value ""))
@@ -21,7 +21,8 @@
       (datasheet https://statics3.seeedstudio.com/images/opl/datasheet/320030087.pdf)
       (fields
         (field (name Manufacturer) YXCON)
-        (field (name MPN) F185-1220A0BSYA1))
+        (field (name MPN) F185-1220A0BSYA1)
+        (field (name SKU) 320030015))
       (libsource (lib conn) (part CONN_02X20))
       (sheetpath (names /) (tstamps /))
       (tstamp 584D4555))
@@ -64,7 +65,7 @@
       (fields
         (field (name Manufacturer) Yageo)
         (field (name MPN) CC0402KRX7R9BB103)
-        (field (name OPL) 302010006))
+        (field (name SKU) 302010006))
       (libsource (lib device) (part C))
       (sheetpath (names /) (tstamps /))
       (tstamp 584D4DA4))
@@ -75,7 +76,7 @@
       (fields
         (field (name Manufacturer) Yageo)
         (field (name MPN) CC0402KRX7R8BB104)
-        (field (name OPL) 302010024))
+        (field (name SKU) 302010024))
       (libsource (lib device) (part C))
       (sheetpath (names /) (tstamps /))
       (tstamp 584D4DF7))
@@ -96,7 +97,7 @@
       (fields
         (field (name Manufacturer) Murata)
         (field (name MPN) BLM18AG121SN1D)
-        (field (name OPL) 303030001)
+        (field (name SKU) 303030001)
         (field (name Manufacturer2) "Taiyo Yuden")
         (field (name MPN2) BK1608HW121-T))
       (libsource (lib hat-parts) (part FERRITE))
@@ -109,7 +110,7 @@
       (fields
         (field (name Manufacturer) Murata)
         (field (name MPN) BLM18AG121SN1D)
-        (field (name OPL) 303030001)
+        (field (name SKU) 303030001)
         (field (name Manufacturer2) "Taiyo Yuden")
         (field (name MPN2) BK1608HW121-T))
       (libsource (lib hat-parts) (part FERRITE))
@@ -122,7 +123,7 @@
       (fields
         (field (name Manufacturer) Murata)
         (field (name MPN) BLM18AG121SN1D)
-        (field (name OPL) 303030001)
+        (field (name SKU) 303030001)
         (field (name Manufacturer2) "Taiyo Yuden")
         (field (name MPN2) BK1608HW121-T))
       (libsource (lib hat-parts) (part FERRITE))
@@ -135,7 +136,7 @@
       (fields
         (field (name Manufacturer) Murata)
         (field (name MPN) BLM18AG121SN1D)
-        (field (name OPL) 303030001)
+        (field (name SKU) 303030001)
         (field (name Manufacturer2) "Taiyo Yuden")
         (field (name MPN2) BK1608HW121-T))
       (libsource (lib hat-parts) (part FERRITE))
@@ -160,7 +161,7 @@
       (fields
         (field (name Manufacturer) Yageo)
         (field (name MPN) CC0402KRX7R9BB103)
-        (field (name OPL) 302010006))
+        (field (name SKU) 302010006))
       (libsource (lib device) (part C))
       (sheetpath (names /) (tstamps /))
       (tstamp 58E5EC55))
@@ -171,7 +172,7 @@
       (fields
         (field (name Manufacturer) Yageo)
         (field (name MPN) CC0402KRX7R8BB104)
-        (field (name OPL) 302010024))
+        (field (name SKU) 302010024))
       (libsource (lib device) (part C))
       (sheetpath (names /) (tstamps /))
       (tstamp 58E5F28C))
@@ -182,7 +183,7 @@
       (fields
         (field (name Manufacturer) Yageo)
         (field (name MPN) CC0402KRX7R8BB104)
-        (field (name OPL) 302010024))
+        (field (name SKU) 302010024))
       (libsource (lib device) (part C))
       (sheetpath (names /) (tstamps /))
       (tstamp 58E5FB48))
@@ -193,7 +194,7 @@
       (fields
         (field (name Manufacturer) Yageo)
         (field (name MPN) CC0402KRX7R8BB104)
-        (field (name OPL) 302010024))
+        (field (name SKU) 302010024))
       (libsource (lib device) (part C))
       (sheetpath (names /) (tstamps /))
       (tstamp 58E610D2))
@@ -204,7 +205,7 @@
       (fields
         (field (name Manufacturer) Taifeng)
         (field (name MPN) 1125R-4P)
-        (field (name OPL) 320110034))
+        (field (name SKU) 320110034))
       (libsource (lib SeeedOPL-Connector-2016) (part GROVE-CONNECTOR-DIP-90D_4P-2.0_))
       (sheetpath (names /) (tstamps /))
       (tstamp 58E6260C))
@@ -215,7 +216,7 @@
       (fields
         (field (name Manufacturer) Yageo)
         (field (name MPN) CC0402KRX7R8BB104)
-        (field (name OPL) 302010024))
+        (field (name SKU) 302010024))
       (libsource (lib device) (part C))
       (sheetpath (names /) (tstamps /))
       (tstamp 58E62A09))
@@ -226,7 +227,7 @@
       (fields
         (field (name Manufacturer) Yageo)
         (field (name MPN) CC0402KRX7R8BB104)
-        (field (name OPL) 302010024))
+        (field (name SKU) 302010024))
       (libsource (lib device) (part C))
       (sheetpath (names /) (tstamps /))
       (tstamp 58E62AAE))
@@ -237,7 +238,7 @@
       (fields
         (field (name Manufacturer) Yageo)
         (field (name MPN) CC0402KRX7R8BB104)
-        (field (name OPL) 302010024))
+        (field (name SKU) 302010024))
       (libsource (lib device) (part C))
       (sheetpath (names /) (tstamps /))
       (tstamp 58E62BBA))
@@ -248,7 +249,7 @@
       (fields
         (field (name Manufacturer) Yageo)
         (field (name MPN) CC0402KRX7R8BB104)
-        (field (name OPL) 302010024))
+        (field (name SKU) 302010024))
       (libsource (lib device) (part C))
       (sheetpath (names /) (tstamps /))
       (tstamp 58E62C5F))
@@ -259,7 +260,7 @@
       (fields
         (field (name Manufacturer) Yageo)
         (field (name MPN) CC0402KRX7R8BB104)
-        (field (name OPL) 302010024))
+        (field (name SKU) 302010024))
       (libsource (lib device) (part C))
       (sheetpath (names /) (tstamps /))
       (tstamp 58E62D00))
@@ -348,7 +349,7 @@
       (fields
         (field (name Manufacturer) Taifeng)
         (field (name MPN) 1125R-4P)
-        (field (name OPL) 320110034))
+        (field (name SKU) 320110034))
       (libsource (lib SeeedOPL-Connector-2016) (part GROVE-CONNECTOR-DIP-90D_4P-2.0_))
       (sheetpath (names /) (tstamps /))
       (tstamp 58E64457))
@@ -359,7 +360,7 @@
       (fields
         (field (name Manufacturer) Taifeng)
         (field (name MPN) 1125R-4P)
-        (field (name OPL) 320110034))
+        (field (name SKU) 320110034))
       (libsource (lib SeeedOPL-Connector-2016) (part GROVE-CONNECTOR-DIP-90D_4P-2.0_))
       (sheetpath (names /) (tstamps /))
       (tstamp 58E647B7)))
@@ -525,16 +526,16 @@
   (libraries
     (library (logical octelehat-rescue)
       (uri /home/greg/moonpunch/designs/octelehat/octelehat-rescue.lib))
+    (library (logical hat-parts)
+      (uri /home/greg/moonpunch/designs/octelehat/hat-parts.lib))
+    (library (logical SeeedOPL-Resistor-2016)
+      (uri /home/greg/moonpunch/work/SeeedOPL/SeeedOPL-Resistor-2016.lib))
+    (library (logical SeeedOPL-Connector-2016)
+      (uri /home/greg/moonpunch/work/SeeedOPL/SeeedOPL-Connector-2016.lib))
     (library (logical device)
       (uri /usr/share/kicad/library/device.lib))
     (library (logical conn)
-      (uri /usr/share/kicad/library/conn.lib))
-    (library (logical hat-parts)
-      (uri /home/greg/moonpunch/designs/octelehat/hat-parts.lib))
-    (library (logical SeeedOPL-Connector-2016)
-      (uri /home/greg/moonpunch/work/SeeedOPL/SeeedOPL-Connector-2016.lib))
-    (library (logical SeeedOPL-Resistor-2016)
-      (uri /home/greg/moonpunch/work/SeeedOPL/SeeedOPL-Resistor-2016.lib)))
+      (uri /usr/share/kicad/library/conn.lib)))
   (nets
     (net (code 1) (name /SCL1_GPIO03)
       (node (ref J1) (pin 1))

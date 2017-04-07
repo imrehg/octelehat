@@ -51,8 +51,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Overclocking Telemetry HAT for Raspberry Pi 3"
-Date "2017-04-05"
-Rev "v1"
+Date "2017-04-07"
+Rev "1"
 Comp "moonpunch.org"
 Comment1 "CERN OHL 1.2"
 Comment2 ""
@@ -69,6 +69,7 @@ F 2 "Socket_Strips:Socket_Strip_Straight_2x20_Pitch2.54mm" H 2400 1300 50  0001 
 F 3 "https://statics3.seeedstudio.com/images/opl/datasheet/320030087.pdf" H 2400 1400 50  0001 C CNN
 F 4 "YXCON" H 2400 2350 60  0001 C CNN "Manufacturer"
 F 5 "F185-1220A0BSYA1" H 2400 1300 50  0000 C CNN "MPN"
+F 6 "320030015" H 2400 2350 60  0001 C CNN "SKU"
 	1    2400 2350
 	1    0    0    -1  
 $EndComp
@@ -201,7 +202,7 @@ F 2 "Capacitors_SMD:C_0402" H 6588 1850 50  0001 C CNN
 F 3 "https://statics3.seeedstudio.com/images/opl/datasheet/302010006.pdf" H 6550 2000 50  0001 C CNN
 F 4 "Yageo" H 6550 2000 60  0001 C CNN "Manufacturer"
 F 5 "CC0402KRX7R9BB103" H 6550 2000 60  0001 C CNN "MPN"
-F 6 "302010006" H 6550 2000 60  0001 C CNN "OPL"
+F 6 "302010006" H 6550 2000 60  0001 C CNN "SKU"
 	1    6550 2000
 	-1   0    0    -1  
 $EndComp
@@ -215,7 +216,7 @@ F 2 "Capacitors_SMD:C_0402" H 6138 1250 50  0001 C CNN
 F 3 "https://statics3.seeedstudio.com/images/opl/datasheet/302010024.pdf" H 6100 1400 50  0001 C CNN
 F 4 "Yageo" H 6100 1400 60  0001 C CNN "Manufacturer"
 F 5 "CC0402KRX7R8BB104" H 6100 1400 60  0001 C CNN "MPN"
-F 6 "302010024" H 6100 1400 60  0001 C CNN "OPL"
+F 6 "302010024" H 6100 1400 60  0001 C CNN "SKU"
 	1    6100 1400
 	0    -1   -1   0   
 $EndComp
@@ -528,7 +529,7 @@ F 2 "Resistors_SMD:R_0603_HandSoldering" H 6900 1700 60  0001 C CNN
 F 3 "https://statics3.seeedstudio.com/images/opl/datasheet/0900120P1.pdf" H 6900 1700 60  0001 C CNN
 F 4 "Murata" H 6900 1800 60  0001 C CNN "Manufacturer"
 F 5 "BLM18AG121SN1D" H 6750 1550 50  0000 C CNN "MPN"
-F 6 "303030001" H 6900 1800 60  0001 C CNN "OPL"
+F 6 "303030001" H 6900 1800 60  0001 C CNN "SKU"
 F 7 "Taiyo Yuden" H 6900 1800 60  0001 C CNN "Manufacturer2"
 F 8 "BK1608HW121-T" H 6800 1550 40  0001 C CNN "MPN2"
 	1    6900 1800
@@ -744,7 +745,7 @@ F 2 "Resistors_SMD:R_0603_HandSoldering" H 6900 2100 60  0001 C CNN
 F 3 "https://statics3.seeedstudio.com/images/opl/datasheet/0900120P1.pdf" H 6900 2100 60  0001 C CNN
 F 4 "Murata" H 6900 2200 60  0001 C CNN "Manufacturer"
 F 5 "BLM18AG121SN1D" H 6900 2200 60  0001 C CNN "MPN"
-F 6 "303030001" H 6900 2200 60  0001 C CNN "OPL"
+F 6 "303030001" H 6900 2200 60  0001 C CNN "SKU"
 F 7 "Taiyo Yuden" H 6900 2200 60  0001 C CNN "Manufacturer2"
 F 8 "BK1608HW121-T" H 6800 1950 40  0001 C CNN "MPN2"
 	1    6900 2200
@@ -760,7 +761,7 @@ F 2 "Resistors_SMD:R_0603_HandSoldering" H 10250 1700 60  0001 C CNN
 F 3 "https://statics3.seeedstudio.com/images/opl/datasheet/0900120P1.pdf" H 10250 1700 60  0001 C CNN
 F 4 "Murata" H 10250 1800 60  0001 C CNN "Manufacturer"
 F 5 "BLM18AG121SN1D" H 10050 1550 50  0000 C CNN "MPN"
-F 6 "303030001" H 10250 1800 60  0001 C CNN "OPL"
+F 6 "303030001" H 10250 1800 60  0001 C CNN "SKU"
 F 7 "Taiyo Yuden" H 10250 1800 60  0001 C CNN "Manufacturer2"
 F 8 "BK1608HW121-T" H 10150 1550 40  0001 C CNN "MPN2"
 	1    10250 1800
@@ -776,7 +777,7 @@ F 2 "Resistors_SMD:R_0603_HandSoldering" H 10250 2100 60  0001 C CNN
 F 3 "https://statics3.seeedstudio.com/images/opl/datasheet/0900120P1.pdf" H 10250 2100 60  0001 C CNN
 F 4 "Murata" H 10250 2200 60  0001 C CNN "Manufacturer"
 F 5 "BLM18AG121SN1D" H 10250 2200 60  0001 C CNN "MPN"
-F 6 "303030001" H 10250 2200 60  0001 C CNN "OPL"
+F 6 "303030001" H 10250 2200 60  0001 C CNN "SKU"
 F 7 "Taiyo Yuden" H 10250 2200 60  0001 C CNN "Manufacturer2"
 F 8 "BK1608HW121-T" H 10150 1950 40  0001 C CNN "MPN2"
 	1    10250 2200
@@ -807,7 +808,7 @@ F 2 "Capacitors_SMD:C_0402" H 9938 1850 50  0001 C CNN
 F 3 "https://statics3.seeedstudio.com/images/opl/datasheet/302010006.pdf" H 9900 2000 50  0001 C CNN
 F 4 "Yageo" H 9900 2000 60  0001 C CNN "Manufacturer"
 F 5 "CC0402KRX7R9BB103" H 9900 2000 60  0001 C CNN "MPN"
-F 6 "302010006" H 9900 2000 60  0001 C CNN "OPL"
+F 6 "302010006" H 9900 2000 60  0001 C CNN "SKU"
 	1    9900 2000
 	-1   0    0    -1  
 $EndComp
@@ -821,7 +822,7 @@ F 2 "Capacitors_SMD:C_0402" H 9488 1250 50  0001 C CNN
 F 3 "https://statics3.seeedstudio.com/images/opl/datasheet/302010024.pdf" H 9450 1400 50  0001 C CNN
 F 4 "Yageo" H 9450 1400 60  0001 C CNN "Manufacturer"
 F 5 "CC0402KRX7R8BB104" H 9450 1400 60  0001 C CNN "MPN"
-F 6 "302010024" H 9450 1400 60  0001 C CNN "OPL"
+F 6 "302010024" H 9450 1400 60  0001 C CNN "SKU"
 	1    9450 1400
 	0    -1   -1   0   
 $EndComp
@@ -835,7 +836,7 @@ F 2 "Capacitors_SMD:C_0402" H 6188 4650 50  0001 C CNN
 F 3 "https://statics3.seeedstudio.com/images/opl/datasheet/302010024.pdf" H 6150 4800 50  0001 C CNN
 F 4 "Yageo" H 6150 4800 60  0001 C CNN "Manufacturer"
 F 5 "CC0402KRX7R8BB104" H 6150 4800 60  0001 C CNN "MPN"
-F 6 "302010024" H 6150 4800 60  0001 C CNN "OPL"
+F 6 "302010024" H 6150 4800 60  0001 C CNN "SKU"
 	1    6150 4800
 	1    0    0    -1  
 $EndComp
@@ -849,7 +850,7 @@ F 2 "Capacitors_SMD:C_0402" H 8838 4100 50  0001 C CNN
 F 3 "https://statics3.seeedstudio.com/images/opl/datasheet/302010024.pdf" H 8800 4250 50  0001 C CNN
 F 4 "Yageo" H 8800 4250 60  0001 C CNN "Manufacturer"
 F 5 "CC0402KRX7R8BB104" H 8800 4250 60  0001 C CNN "MPN"
-F 6 "302010024" H 8800 4250 60  0001 C CNN "OPL"
+F 6 "302010024" H 8800 4250 60  0001 C CNN "SKU"
 	1    8800 4250
 	1    0    0    -1  
 $EndComp
@@ -867,7 +868,7 @@ F 2 "SeeedOPL-Connector-2016:HW4-2.0-90D" H 10600 5750 60  0001 C CNN
 F 3 "https://statics3.seeedstudio.com/images/opl/datasheet/3470140P1.pdf" H 10600 5750 60  0001 C CNN
 F 4 "Taifeng" H 10600 5750 60  0001 C CNN "Manufacturer"
 F 5 "1125R-4P" H 10600 5750 60  0001 C CNN "MPN"
-F 6 "320110034" H 10630 5900 20  0001 C CNN "OPL"
+F 6 "320110034" H 10630 5900 20  0001 C CNN "SKU"
 	1    10600 5750
 	1    0    0    -1  
 $EndComp
@@ -881,7 +882,7 @@ F 2 "Capacitors_SMD:C_0402" H 8838 4500 50  0001 C CNN
 F 3 "https://statics3.seeedstudio.com/images/opl/datasheet/302010024.pdf" H 8800 4650 50  0001 C CNN
 F 4 "Yageo" H 8800 4650 60  0001 C CNN "Manufacturer"
 F 5 "CC0402KRX7R8BB104" H 8800 4650 60  0001 C CNN "MPN"
-F 6 "302010024" H 8800 4650 60  0001 C CNN "OPL"
+F 6 "302010024" H 8800 4650 60  0001 C CNN "SKU"
 	1    8800 4650
 	1    0    0    -1  
 $EndComp
@@ -895,7 +896,7 @@ F 2 "Capacitors_SMD:C_0402" H 8838 4900 50  0001 C CNN
 F 3 "https://statics3.seeedstudio.com/images/opl/datasheet/302010024.pdf" H 8800 5050 50  0001 C CNN
 F 4 "Yageo" H 8800 5050 60  0001 C CNN "Manufacturer"
 F 5 "CC0402KRX7R8BB104" H 8800 5050 60  0001 C CNN "MPN"
-F 6 "302010024" H 8800 5050 60  0001 C CNN "OPL"
+F 6 "302010024" H 8800 5050 60  0001 C CNN "SKU"
 	1    8800 5050
 	1    0    0    -1  
 $EndComp
@@ -909,7 +910,7 @@ F 2 "Capacitors_SMD:C_0402" H 8838 5300 50  0001 C CNN
 F 3 "https://statics3.seeedstudio.com/images/opl/datasheet/302010024.pdf" H 8800 5450 50  0001 C CNN
 F 4 "Yageo" H 8800 5450 60  0001 C CNN "Manufacturer"
 F 5 "CC0402KRX7R8BB104" H 8800 5450 60  0001 C CNN "MPN"
-F 6 "302010024" H 8800 5450 60  0001 C CNN "OPL"
+F 6 "302010024" H 8800 5450 60  0001 C CNN "SKU"
 	1    8800 5450
 	1    0    0    -1  
 $EndComp
@@ -923,7 +924,7 @@ F 2 "Capacitors_SMD:C_0402" H 6188 5050 50  0001 C CNN
 F 3 "https://statics3.seeedstudio.com/images/opl/datasheet/302010024.pdf" H 6150 5200 50  0001 C CNN
 F 4 "Yageo" H 6150 5200 60  0001 C CNN "Manufacturer"
 F 5 "CC0402KRX7R8BB104" H 6150 5200 60  0001 C CNN "MPN"
-F 6 "302010024" H 6150 5200 60  0001 C CNN "OPL"
+F 6 "302010024" H 6150 5200 60  0001 C CNN "SKU"
 	1    6150 5200
 	1    0    0    -1  
 $EndComp
@@ -937,7 +938,7 @@ F 2 "Capacitors_SMD:C_0402" H 6188 5450 50  0001 C CNN
 F 3 "https://statics3.seeedstudio.com/images/opl/datasheet/302010024.pdf" H 6150 5600 50  0001 C CNN
 F 4 "Yageo" H 6150 5600 60  0001 C CNN "Manufacturer"
 F 5 "CC0402KRX7R8BB104" H 6150 5600 60  0001 C CNN "MPN"
-F 6 "302010024" H 6150 5600 60  0001 C CNN "OPL"
+F 6 "302010024" H 6150 5600 60  0001 C CNN "SKU"
 	1    6150 5600
 	1    0    0    -1  
 $EndComp
@@ -1055,7 +1056,7 @@ F 2 "SeeedOPL-Connector-2016:HW4-2.0-90D" H 4150 6600 60  0001 C CNN
 F 3 "https://statics3.seeedstudio.com/images/opl/datasheet/3470140P1.pdf" H 4150 6600 60  0001 C CNN
 F 4 "Taifeng" H 4150 6600 60  0001 C CNN "Manufacturer"
 F 5 "1125R-4P" H 4150 6600 60  0001 C CNN "MPN"
-F 6 "320110034" H 4180 6750 20  0001 C CNN "OPL"
+F 6 "320110034" H 4180 6750 20  0001 C CNN "SKU"
 	1    4150 6600
 	1    0    0    -1  
 $EndComp
@@ -1069,7 +1070,7 @@ F 2 "SeeedOPL-Connector-2016:HW4-2.0-90D" H 4150 7250 60  0001 C CNN
 F 3 "https://statics3.seeedstudio.com/images/opl/datasheet/3470140P1.pdf" H 4150 7250 60  0001 C CNN
 F 4 "Taifeng" H 4150 7250 60  0001 C CNN "Manufacturer"
 F 5 "1125R-4P" H 4150 7250 60  0001 C CNN "MPN"
-F 6 "320110034" H 4180 7400 20  0001 C CNN "OPL"
+F 6 "320110034" H 4180 7400 20  0001 C CNN "SKU"
 	1    4150 7250
 	1    0    0    -1  
 $EndComp

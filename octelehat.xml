@@ -2,14 +2,14 @@
 <export version="D">
   <design>
     <source>/home/greg/moonpunch/designs/octelehat/octelehat.sch</source>
-    <date>Fri 07 Apr 2017 01:42:41 AM BST</date>
+    <date>Fri 07 Apr 2017 02:16:52 PM BST</date>
     <tool>Eeschema 4.0.6</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>Overclocking Telemetry HAT for Raspberry Pi 3</title>
         <company>moonpunch.org</company>
-        <rev>v1</rev>
-        <date>2017-04-05</date>
+        <rev>1</rev>
+        <date>2017-04-07</date>
         <source>octelehat.sch</source>
         <comment number="1" value="CERN OHL 1.2"/>
         <comment number="2" value=""/>
@@ -26,6 +26,7 @@
       <fields>
         <field name="Manufacturer">YXCON</field>
         <field name="MPN">F185-1220A0BSYA1</field>
+        <field name="SKU">320030015</field>
       </fields>
       <libsource lib="conn" part="CONN_02X20"/>
       <sheetpath names="/" tstamps="/"/>
@@ -76,7 +77,7 @@
       <fields>
         <field name="Manufacturer">Yageo</field>
         <field name="MPN">CC0402KRX7R9BB103</field>
-        <field name="OPL">302010006</field>
+        <field name="SKU">302010006</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -89,7 +90,7 @@
       <fields>
         <field name="Manufacturer">Yageo</field>
         <field name="MPN">CC0402KRX7R8BB104</field>
-        <field name="OPL">302010024</field>
+        <field name="SKU">302010024</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -114,7 +115,7 @@
       <fields>
         <field name="Manufacturer">Murata</field>
         <field name="MPN">BLM18AG121SN1D</field>
-        <field name="OPL">303030001</field>
+        <field name="SKU">303030001</field>
         <field name="Manufacturer2">Taiyo Yuden</field>
         <field name="MPN2">BK1608HW121-T</field>
       </fields>
@@ -129,7 +130,7 @@
       <fields>
         <field name="Manufacturer">Murata</field>
         <field name="MPN">BLM18AG121SN1D</field>
-        <field name="OPL">303030001</field>
+        <field name="SKU">303030001</field>
         <field name="Manufacturer2">Taiyo Yuden</field>
         <field name="MPN2">BK1608HW121-T</field>
       </fields>
@@ -144,7 +145,7 @@
       <fields>
         <field name="Manufacturer">Murata</field>
         <field name="MPN">BLM18AG121SN1D</field>
-        <field name="OPL">303030001</field>
+        <field name="SKU">303030001</field>
         <field name="Manufacturer2">Taiyo Yuden</field>
         <field name="MPN2">BK1608HW121-T</field>
       </fields>
@@ -159,7 +160,7 @@
       <fields>
         <field name="Manufacturer">Murata</field>
         <field name="MPN">BLM18AG121SN1D</field>
-        <field name="OPL">303030001</field>
+        <field name="SKU">303030001</field>
         <field name="Manufacturer2">Taiyo Yuden</field>
         <field name="MPN2">BK1608HW121-T</field>
       </fields>
@@ -188,7 +189,7 @@
       <fields>
         <field name="Manufacturer">Yageo</field>
         <field name="MPN">CC0402KRX7R9BB103</field>
-        <field name="OPL">302010006</field>
+        <field name="SKU">302010006</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -201,7 +202,7 @@
       <fields>
         <field name="Manufacturer">Yageo</field>
         <field name="MPN">CC0402KRX7R8BB104</field>
-        <field name="OPL">302010024</field>
+        <field name="SKU">302010024</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -214,7 +215,7 @@
       <fields>
         <field name="Manufacturer">Yageo</field>
         <field name="MPN">CC0402KRX7R8BB104</field>
-        <field name="OPL">302010024</field>
+        <field name="SKU">302010024</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -227,7 +228,7 @@
       <fields>
         <field name="Manufacturer">Yageo</field>
         <field name="MPN">CC0402KRX7R8BB104</field>
-        <field name="OPL">302010024</field>
+        <field name="SKU">302010024</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -240,7 +241,7 @@
       <fields>
         <field name="Manufacturer">Taifeng</field>
         <field name="MPN">1125R-4P</field>
-        <field name="OPL">320110034</field>
+        <field name="SKU">320110034</field>
       </fields>
       <libsource lib="SeeedOPL-Connector-2016" part="GROVE-CONNECTOR-DIP-90D_4P-2.0_"/>
       <sheetpath names="/" tstamps="/"/>
@@ -253,7 +254,7 @@
       <fields>
         <field name="Manufacturer">Yageo</field>
         <field name="MPN">CC0402KRX7R8BB104</field>
-        <field name="OPL">302010024</field>
+        <field name="SKU">302010024</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -266,7 +267,7 @@
       <fields>
         <field name="Manufacturer">Yageo</field>
         <field name="MPN">CC0402KRX7R8BB104</field>
-        <field name="OPL">302010024</field>
+        <field name="SKU">302010024</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -279,7 +280,7 @@
       <fields>
         <field name="Manufacturer">Yageo</field>
         <field name="MPN">CC0402KRX7R8BB104</field>
-        <field name="OPL">302010024</field>
+        <field name="SKU">302010024</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -292,7 +293,7 @@
       <fields>
         <field name="Manufacturer">Yageo</field>
         <field name="MPN">CC0402KRX7R8BB104</field>
-        <field name="OPL">302010024</field>
+        <field name="SKU">302010024</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -305,7 +306,7 @@
       <fields>
         <field name="Manufacturer">Yageo</field>
         <field name="MPN">CC0402KRX7R8BB104</field>
-        <field name="OPL">302010024</field>
+        <field name="SKU">302010024</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -412,7 +413,7 @@
       <fields>
         <field name="Manufacturer">Taifeng</field>
         <field name="MPN">1125R-4P</field>
-        <field name="OPL">320110034</field>
+        <field name="SKU">320110034</field>
       </fields>
       <libsource lib="SeeedOPL-Connector-2016" part="GROVE-CONNECTOR-DIP-90D_4P-2.0_"/>
       <sheetpath names="/" tstamps="/"/>
@@ -425,7 +426,7 @@
       <fields>
         <field name="Manufacturer">Taifeng</field>
         <field name="MPN">1125R-4P</field>
-        <field name="OPL">320110034</field>
+        <field name="SKU">320110034</field>
       </fields>
       <libsource lib="SeeedOPL-Connector-2016" part="GROVE-CONNECTOR-DIP-90D_4P-2.0_"/>
       <sheetpath names="/" tstamps="/"/>
@@ -631,23 +632,23 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="octelehat-rescue">
-      <uri>/home/greg/moonpunch/designs/octelehat/octelehat-rescue.lib</uri>
-    </library>
-    <library logical="device">
-      <uri>/usr/share/kicad/library/device.lib</uri>
-    </library>
-    <library logical="conn">
-      <uri>/usr/share/kicad/library/conn.lib</uri>
-    </library>
-    <library logical="hat-parts">
-      <uri>/home/greg/moonpunch/designs/octelehat/hat-parts.lib</uri>
+    <library logical="SeeedOPL-Resistor-2016">
+      <uri>/home/greg/moonpunch/work/SeeedOPL/SeeedOPL-Resistor-2016.lib</uri>
     </library>
     <library logical="SeeedOPL-Connector-2016">
       <uri>/home/greg/moonpunch/work/SeeedOPL/SeeedOPL-Connector-2016.lib</uri>
     </library>
-    <library logical="SeeedOPL-Resistor-2016">
-      <uri>/home/greg/moonpunch/work/SeeedOPL/SeeedOPL-Resistor-2016.lib</uri>
+    <library logical="hat-parts">
+      <uri>/home/greg/moonpunch/designs/octelehat/hat-parts.lib</uri>
+    </library>
+    <library logical="octelehat-rescue">
+      <uri>/home/greg/moonpunch/designs/octelehat/octelehat-rescue.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
     </library>
   </libraries>
   <nets>
