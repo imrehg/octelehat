@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/greg/moonpunch/designs/octelehat/octelehat.sch</source>
-    <date>Fri 19 May 2017 04:55:39 PM BST</date>
+    <date>Mon 19 Jun 2017 12:06:13 AM BST</date>
     <tool>Eeschema 4.0.6</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -22,11 +22,10 @@
     <comp ref="P1">
       <value>CONN_02X20</value>
       <footprint>Socket_Strips:Socket_Strip_Straight_2x20_Pitch2.54mm</footprint>
-      <datasheet>https://statics3.seeedstudio.com/images/opl/datasheet/320030087.pdf</datasheet>
+      <datasheet>https://www.toby.co.uk/datasheets/section4/REF-18xxxx-0x.pdf?revDate=17112016113546</datasheet>
       <fields>
-        <field name="Manufacturer">YXCON</field>
-        <field name="MPN">F185-1220A0BSYA1</field>
-        <field name="SKU">320030015</field>
+        <field name="Manufacturer">Toby Electronics</field>
+        <field name="MPN">REF-182684-02</field>
       </fields>
       <libsource lib="conn" part="CONN_02X20"/>
       <sheetpath names="/" tstamps="/"/>
@@ -627,7 +626,7 @@
   </libparts>
   <libraries>
     <library logical="octelehat-rescue">
-      <uri>/home/greg/moonpunch/designs/octelehat/octelehat-rescue.lib</uri>
+      <uri>octelehat-rescue.lib</uri>
     </library>
     <library logical="device">
       <uri>/usr/share/kicad/library/device.lib</uri>
@@ -636,7 +635,7 @@
       <uri>/usr/share/kicad/library/conn.lib</uri>
     </library>
     <library logical="hat-parts">
-      <uri>/home/greg/moonpunch/designs/octelehat/hat-parts.lib</uri>
+      <uri>hat-parts.lib</uri>
     </library>
     <library logical="SeeedOPL-Connector-2016">
       <uri>/home/greg/moonpunch/work/SeeedOPL/SeeedOPL-Connector-2016.lib</uri>

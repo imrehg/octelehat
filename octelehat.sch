@@ -66,10 +66,9 @@ P 2400 2350
 F 0 "P1" H 2400 3400 50  0000 C CNN
 F 1 "CONN_02X20" V 2400 2350 50  0000 C CNN
 F 2 "Socket_Strips:Socket_Strip_Straight_2x20_Pitch2.54mm" H 2400 1300 50  0001 C CNN
-F 3 "https://statics3.seeedstudio.com/images/opl/datasheet/320030087.pdf" H 2400 1400 50  0001 C CNN
-F 4 "YXCON" H 2400 2350 60  0001 C CNN "Manufacturer"
-F 5 "F185-1220A0BSYA1" H 2400 1300 50  0000 C CNN "MPN"
-F 6 "320030015" H 2400 2350 60  0001 C CNN "SKU"
+F 3 "https://www.toby.co.uk/datasheets/section4/REF-18xxxx-0x.pdf?revDate=17112016113546" H 2400 1400 50  0001 C CNN
+F 4 "Toby Electronics" H 2400 2350 60  0001 C CNN "Manufacturer"
+F 5 "REF-182684-02" H 2400 1300 50  0000 C CNN "MPN"
 	1    2400 2350
 	1    0    0    -1  
 $EndComp
